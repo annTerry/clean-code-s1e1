@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.task-list-item,  .sub-header {
+.task-list-item,
+.sub-header {
   list-style: none;
 }
 
-.task-input,.action-btn{
+.task-input,
+.action-btn {
   outline: none;
 }
 
