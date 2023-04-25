@@ -33,6 +33,8 @@ var createNewTaskElement=function(taskString){
     editInput.classList.add("task-name__input");
     editInput.classList.add("task-input");
     editInput.classList.add("task-list__item__content");
+    editInput.classList.add("task-list__item__input");
+  
     //button.edit
     var editButton=document.createElement("button");//edit button
     editButton.classList.add("edit-btn");
