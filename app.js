@@ -28,12 +28,14 @@ var createNewTaskElement=function(taskString){
     var label=document.createElement("label");//label
     label.classList.add("task-name__label");
     label.classList.add("task-list__item__content");
+    label.classList.add("task-name");
     //input (text)
     var editInput=document.createElement("input");//text
     editInput.classList.add("task-name__input");
     editInput.classList.add("task-input");
     editInput.classList.add("task-list__item__content");
     editInput.classList.add("task-list__item__input");
+    editInput.classList.add("task-name");
   
     //button.edit
     var editButton=document.createElement("button");//edit button
